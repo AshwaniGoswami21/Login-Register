@@ -1,0 +1,66 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://example.com/travel-background.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .welcome-section {
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        .welcome-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .welcome-section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff6347;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ff4500;
+        }@charset "UTF-8";
